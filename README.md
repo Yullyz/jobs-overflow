@@ -16,8 +16,3 @@ Client-side Fabric mod for Minecraft 1.21.8 that tracks Jobs Reborn XP earned at
   - `/jobsoverflow reset`
   - `/jobsoverflow resetjob <job>`
 
-## Build
-
-Use Java 21 and run `./gradlew build` (or `gradlew.bat build` on Windows).
-
-The finished jar will be in `build/libs/`.
