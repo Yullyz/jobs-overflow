@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "jobs-overflow",
+  "version": "${version}",
+  "name": "Jobs Overflow XP",
+  "description": "Tracks Jobs Reborn XP earned after the configured max level and replaces the Jobs bossbar display.",
+  "authors": ["Mills"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.mills.jobsoverflow.client.JobsOverflowClient"
+    ]
+  },
+  "mixins": [
+    "jobs-overflow.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "1.21.8",
+    "fabric-api": "*"
+  }
+}
